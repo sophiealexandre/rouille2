@@ -117,11 +117,13 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.1rem + 0.7vw);
+  text-align: center;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+ text-align: center;
   }
 }
 
@@ -487,7 +489,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -536,13 +538,13 @@ progress {
 }
 
 .display-5 {
-  font-size: calc(1.425rem + 2.1vw);
+  font-size: calc(1.25rem + 1.5vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-5 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -11296,10 +11298,10 @@ textarea.form-control-lg {
   line-height: 1;
 }
 .header p {
-    text-transform: uppercase;
-    letter-spacing: 7px;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 1;
+    letter-spacing: .1em;
+    text-transform: uppercase;
 }
 
 body {
@@ -11307,3 +11309,10 @@ body {
   font-family: Lato, sans-serif;
   margin: 0;
 }
+
+.img-fluid {
+   object-fit: cover;
+   width: 45vh;
+   height: 45vh;
+}
+
